@@ -1,6 +1,6 @@
 # Workflow Identifier
 
-A structured workspace for identifying, documenting, and qualifying business workflows as candidates for AI agent automation. Built on the Interpreted Context Methodology (ICM) — folder structure as agent architecture.
+A structured workspace for identifying, documenting, and qualifying business workflows as candidates for AI agent automation. Built on the Interpreted Context Methodology (ICM) — folder structure as agent architecture. Credit to Jake Van Clief for describing and providing example versions of this process.
 
 ## What This Does
 
