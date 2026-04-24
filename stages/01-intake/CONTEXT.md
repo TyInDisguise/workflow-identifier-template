@@ -53,7 +53,7 @@ Run before writing to `output/`. If any check fails, revise before saving.
 | Check | Pass Condition |
 |-------|---------------|
 | Inventory size | 5-10 candidates (prompt for more if fewer than 5; trim if more than 10) |
-| Candidate completeness | Every candidate has name, frequency, performer, and interest reason |
+| Candidate completeness | Every candidate has name, frequency, performer, interest reason, and stability flag |
 | Specificity | Selected workflow is concrete (e.g., "qualifying inbound leads from the website form") — not an umbrella term ("sales process") |
 | Ownership | The interviewee performs the selected workflow, or has direct handoff visibility into it |
 | Pain or value | Selected workflow has at least one stated reason to automate — pain, volume, or strategic value |
@@ -64,5 +64,5 @@ Run before writing to `output/`. If any check fails, revise before saving.
 | Artifact | Location | Format |
 |----------|----------|--------|
 | Business context | `output/business-context.md` | Markdown — company, team, industry snapshot |
-| Workflow inventory | `output/workflow-inventory.md` | Markdown table — name, frequency, performer, interest reason |
+| Workflow inventory | `output/workflow-inventory.md` | Markdown table — name, frequency, performer, interest reason, stability flag |
 | Selected workflow | `output/selected-workflow.md` | Markdown — name + one-paragraph scope description |

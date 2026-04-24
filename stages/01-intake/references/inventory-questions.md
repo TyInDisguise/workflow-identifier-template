@@ -36,7 +36,7 @@ fewer than 5 after asking them all, probe on the vaguest answer.
 
 ## C. Per-candidate capture
 
-For each candidate surfaced, capture these four fields in 1-2 lines
+For each candidate surfaced, capture these five fields in 1-2 lines
 each. Don't go deep.
 
 - **Name** — short descriptive phrase, not a category. "Processing
@@ -46,14 +46,20 @@ each. Don't go deep.
 - **Performer** — who actually does it (by role, not by name).
 - **Interest reason** — why it came up. Is it painful? Slow?
   Error-prone? Just time-consuming?
+- **Stability** — is this workflow expected to change significantly in
+  the next 6-12 months? (Migration, re-platform, process redesign,
+  vendor change.) Yes / No / Unsure.
 
 ## D. Before mirroring
 
 Before presenting the inventory back for confirmation:
 
-- Check that every candidate has all four fields.
+- Check that every candidate has all five fields.
 - If any candidate is vague ("our reporting process"), ask one probe
   to tighten it ("which report specifically?").
+- If a candidate's stability answer is "yes" (changing soon), flag it
+  in the interest reason — building for a workflow that's about to be
+  replaced is usually wasted effort.
 - If there are more than 10 candidates, note the 10 that look most
   promising based on `selection-guide.md` criteria — but still show
   the full list to the user for their review.
@@ -62,9 +68,9 @@ Before presenting the inventory back for confirmation:
 
 Present the inventory as a short table:
 
-| Workflow | Frequency | Performer | Why it's on the list |
-|----------|-----------|-----------|----------------------|
-| [name] | [freq] | [role] | [interest reason] |
+| Workflow | Frequency | Performer | Why it's on the list | Stable? |
+|----------|-----------|-----------|----------------------|---------|
+| [name] | [freq] | [role] | [interest reason] | [Y/N/?] |
 
 Then ask: "Anything missing, anything we should drop, or anything to
 edit?" Update based on their response before advancing to selection.

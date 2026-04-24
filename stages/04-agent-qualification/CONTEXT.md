@@ -33,7 +33,7 @@ the path decision — not upfront.
 1. Read the reviewed workflow record from stage 03.
 2. Run the sensitivity triage from `references/path-decision.md` — answer
    regulated / confidential / none. Capture the answer for later use.
-3. Score the documented workflow against all 8 dimensions using
+3. Score the documented workflow against all 9 dimensions using
    `references/scoring-guide.md`. One-sentence rationale per dimension.
 4. Compute total monthly cost: volume × time-per-run + error cost (from
    stage 02 question 20).
@@ -69,7 +69,7 @@ the path decision — not upfront.
 
 | After Step | Agent Presents | Human Decides |
 |------------|---------------|---------------|
-| Scoring complete | 8-dimension scorecard + total + monthly cost estimate | Confirm or correct scores before path selection |
+| Scoring complete | 9-dimension scorecard + total + monthly cost estimate | Confirm or correct scores before path selection |
 | Path selected | Path name + "what this looks like" plain-English summary + who builds it + rough cost | Confirm path before drafting implementation guide |
 | Drafts complete | Qualification report + implementation guide (+ priority ranking if produced) | Confirm before writing outputs |
 

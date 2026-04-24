@@ -7,11 +7,12 @@ have enough info.
 
 ## Why this is rough
 
-The stage 01 inventory captures only four fields per candidate:
+The stage 01 inventory captures only five fields per candidate:
 - Name
 - Frequency
 - Performer
 - Interest reason
+- Stability flag (yes/no/unsure on 6-12 month change risk)
 
 That's enough to estimate **some** fit-criteria dimensions but not
 others. Rough ranking acknowledges the gap and labels every score as

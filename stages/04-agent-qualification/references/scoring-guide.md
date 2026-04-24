@@ -13,7 +13,7 @@ engine.
    from the workflow record (steps, decisions, exception list, tools).
    A number without reasoning is not useful to the user or to a future
    builder.
-3. Sum the total (max 40).
+3. Sum the total (max 45).
 
 ## Handling veto dimensions
 
@@ -29,6 +29,11 @@ total mask a critical gap.
 - **Stakes scored 1 (high-stakes):** not disqualifying, but drives
   stronger HITL requirements and shifts the path recommendation one
   deeper (more human review).
+- **Evaluability scored 1:** strong signal to pause. If correctness
+  can't be defined and measured, the agent can't be verified or
+  improved. Recommend defining success criteria with the user's team
+  before building — or recommend a different workflow where "right"
+  is clearer.
 
 ## Computing total monthly cost
 

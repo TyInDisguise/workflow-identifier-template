@@ -2,7 +2,7 @@
 
 A scoring rubric for evaluating whether a documented workflow is a strong
 candidate for AI agent automation. Score each dimension 1–5 against the
-reviewed workflow record from stage 03. Total = sum, max 40.
+reviewed workflow record from stage 03. Total = sum, max 45.
 
 Use this rubric in stage 04 to produce `qualification-report.md` and to
 rank candidates in `priority-ranking.md`.
@@ -38,13 +38,14 @@ Where do the inputs live, and how hard is it for an agent to reach them?
 | 1 | Inputs live in people's heads, phone calls, or closed systems with no integration path. |
 
 ### 4. Standardization
-How consistent are the inputs and outputs from run to run?
+How consistent are the inputs and outputs from run to run, and how
+trustworthy is the data as entered?
 
 | Score | Meaning |
 |-------|---------|
-| 5 | Inputs and outputs follow the same format every time. |
-| 3 | Mostly consistent with occasional format variation. |
-| 1 | Every run looks different; inputs vary wildly. |
+| 5 | Inputs and outputs follow the same format every time, and the data is reliable as entered. |
+| 3 | Mostly consistent with occasional format variation or data quality issues. |
+| 1 | Every run looks different; inputs vary wildly or can't be trusted without manual cleanup. |
 
 ### 5. Stakes
 What happens if the agent gets it wrong? Reversibility matters.
@@ -88,14 +89,28 @@ Can the agent run unattended, or does every run need review?
 | 3 | Runs unattended with scheduled review (e.g., weekly QA sample). |
 | 1 | Every output requires human approval before acting. |
 
+### 9. Evaluability
+Can "correct" output be defined and measured? Agent automation requires
+a way to verify whether the agent did its job — otherwise you can't
+improve it and you can't trust it.
+
+| Score | Meaning |
+|-------|---------|
+| 5 | Correctness is objectively measurable — structured output, exact match, or clear pass/fail criteria the user's team would agree on. |
+| 3 | Correctness needs sampling and human judgment, but the criteria for "right" are clear. |
+| 1 | Correctness is subjective or contested; even the user's own team wouldn't agree on what "right" looks like. |
+
+A low score here is a strong signal to pause before building an agent.
+If you can't measure success, you can't prove the agent is working.
+
 ## Scoring guide
 
 | Total | Interpretation |
 |-------|---------------|
-| 32–40 | Strong candidate. Proceed to agent spec. |
-| 24–31 | Viable. Agent spec should call out the weak dimensions explicitly. |
-| 16–23 | Marginal. Document why the user might still want to build it — or recommend a non-agent solution (macro, Zap, template). |
-| 8–15  | Poor fit for agent automation. Recommend human process improvement instead. |
+| 36–45 | Strong candidate. Proceed to agent spec. |
+| 27–35 | Viable. Agent spec should call out the weak dimensions explicitly. |
+| 18–26 | Marginal. Document why the user might still want to build it — or recommend a non-agent solution (macro, Zap, template). |
+| 9–17  | Poor fit for agent automation. Recommend human process improvement instead. |
 
 ## Notes for the qualifier
 
