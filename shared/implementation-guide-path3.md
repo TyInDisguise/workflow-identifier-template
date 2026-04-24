@@ -96,8 +96,7 @@ bounded task should start with human review.
 Before going live, test against real examples.
 
 - **Test set:** pull the last [15–30] real cases from your workflow.
-  Include easy cases, edge cases, and at least one case you remember
-  being tricky.
+  Include typical cases, exceptions, and the tricky ones you remember.
 - **Pass criteria:** the AI matches your judgment on [e.g., 90%+ of
   cases] before you trust it to run without approval.
 - **If it fails:** adjust the prompt (add examples, tighten the output

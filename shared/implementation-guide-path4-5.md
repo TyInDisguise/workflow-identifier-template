@@ -177,7 +177,7 @@ Honest list of what could go wrong and how it's mitigated.
 Before going live, how will the builder verify the system works?
 
 - **Test set:** [N representative past cases collected from the user —
-  include both happy-path and exception examples]
+  include typical cases, exceptions, and the tricky ones you remember]
 - **Pass criteria:** [e.g., "matches human decision on 90%+ of test cases"]
 - **Review cadence:** [how often outputs are spot-checked after launch,
   and by whom]
@@ -197,7 +197,7 @@ for a scoped estimate after they've seen your data.
 
 **If you want to build this yourself:**
 [Specific first step — e.g., "start with an n8n trial and build the
-happy path for one vendor before generalizing."]
+core flow for one vendor before generalizing."]
 
 **If you want help, here's how good engagements tend to look:**
 
