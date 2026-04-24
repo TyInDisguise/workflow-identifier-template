@@ -18,7 +18,7 @@ Deep-dive Socratic elicitation on ONE selected workflow. Produce a populated As-
 ## Process
 
 1. Load the selected workflow name from `01-intake/output/selected-workflow.md`. Confirm with the user that this is still the one to document.
-2. Walk the question template covering all 20 topics across sections A-E. **The 20 topics are a coverage guarantee, not an optional menu.** Every topic must produce an answer before its section's mirror gate. Pareto applies to depth per question and order within a section — skip the literal wording of a question whose answer is already on the table; reorder when the conversation leads naturally elsewhere; spend more turns on surprising answers, fewer on simple ones. Do not skip topics.
+2. Walk the question template covering all 20 topics across sections A-E. **The 20 topics are a coverage guarantee, not an optional menu.** Every topic gets an answer before its mirror gate. Pareto applies to depth per question and order within a section — skip the literal wording of a question whose answer is already on the table; reorder when the conversation leads naturally elsewhere; spend more turns on surprising answers, fewer on simple ones. Do not skip topics.
 3. Ask ONE question at a time. Wait for the answer.
 4. Apply probing patterns whenever the answer contains vague language.
 5. After each section (A-E), CHECKPOINT: mirror back what you heard in the structured mini-record format (see `references/mirroring-guide.md`). Invite correction before advancing.

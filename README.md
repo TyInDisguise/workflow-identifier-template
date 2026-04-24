@@ -11,7 +11,7 @@ Guides a business owner or employee through a four-stage process:
 | 01 | Intake | Frame your business context, surface 5-10 candidate workflows, select one to document |
 | 02 | Workflow Capture | Deep-dive interview on the selected workflow; produces an As-Is record and Mermaid flow diagram |
 | 03 | Workflow Review | Side-by-side review of the diagram and record to catch missing steps or errors |
-| 04 | Agent Qualification | Score the workflow against automation fit criteria; draft an agent spec for the top candidate |
+| 04 | Agent Qualification | Score against automation fit criteria, recommend an implementation path, and produce a qualification report + implementation guide |
 
 ## How to Start
 
@@ -43,8 +43,9 @@ A completed run produces:
 - `workflow-record.md` — structured As-Is documentation of the workflow
 - `workflow-diagram.mmd` — Mermaid flowchart (paste into mermaid.live to render)
 - `elicitation-transcript.md` — full Q&A transcript
-- `qualification-report.md` — automation fit scores and rationale
-- `agent-spec.md` — draft specification for an AI agent to automate the workflow
+- `qualification-report.md` — automation fit scores and recommended implementation path
+- `implementation-guide.md` — concrete build guide for the recommended path (template, recipe, or agent spec depending on path)
+- `priority-ranking.md` — rough ranking of other inventory candidates (produced only when there's enough data)
 
 ## Ideal Interviewee
 

@@ -4,14 +4,8 @@
 
 Score the documented workflow against `shared/fit-criteria.md`,
 recommend an implementation path via `shared/tool-selection-matrix.md`,
-and produce a concrete implementation guide — either a short template
-(paths 1-2), a bounded AI helper spec (path 3), or a full agent spec
-(paths 4-5). Optionally rank other inventory candidates when there's
-enough data.
-
-Every user leaves with at minimum: a qualification report + an
-implementation guide. The form of the guide varies by path; the
-commitment to ship something actionable does not.
+and produce a qualification report + implementation guide. Optionally
+rank other inventory candidates when there's enough data.
 
 ## Inputs
 
@@ -19,7 +13,7 @@ commitment to ship something actionable does not.
 |--------|------|-------|-----|
 | Reviewed record | `../03-workflow-review/output/workflow-record-v2.md` | Full file | The workflow to qualify |
 | Workflow inventory | `../01-intake/output/workflow-inventory.md` | Full file | Other candidates for rough ranking |
-| Fit criteria | `../../shared/fit-criteria.md` | Full file | 8-dimension scoring rubric |
+| Fit criteria | `../../shared/fit-criteria.md` | Full file | 9-dimension scoring rubric |
 | Tool selection matrix | `../../shared/tool-selection-matrix.md` | Full file | Path definitions and selection rules |
 | Scoring guide | `references/scoring-guide.md` | Full file | How to apply fit-criteria without being mechanical |
 | Path decision | `references/path-decision.md` | Full file | How to walk the matrix + JIT-load the right implementation guide |
@@ -44,11 +38,8 @@ the path decision — not upfront.
 7. CHECKPOINT: present the path recommendation in plain English ("what
    this looks like," who builds it, cost, why this path vs. one
    simpler/deeper). Confirm before drafting.
-8. Load the right implementation guide template just-in-time:
-   - Path 1 → `shared/implementation-guide-path1.md`
-   - Path 2 → `shared/implementation-guide-path2.md`
-   - Path 3 → `shared/implementation-guide-path3.md`
-   - Path 4 or 5 → `shared/implementation-guide-path4-5.md`
+8. Load the right implementation guide per `references/path-decision.md`
+   step 5 (JIT based on path).
 9. Fill the implementation guide using the workflow record + scoring
    decisions. Substitution, not composition.
 10. If the stage 01 inventory has 2+ other candidates with enough data,
@@ -79,7 +70,7 @@ Run before writing to `output/`. If any check fails, revise before saving.
 
 | Check | Pass Condition |
 |-------|---------------|
-| Fit-criteria coverage | All 8 dimensions scored with one-sentence rationale |
+| Fit-criteria coverage | All 9 dimensions scored with one-sentence rationale |
 | Veto flag | Any dimension scoring 1 is called out explicitly in the report |
 | Data sensitivity | Triage answered; override applied if regulated |
 | Path-rule alignment | Path recommendation matches the selection rules in `tool-selection-matrix.md` (or override noted) |

@@ -78,7 +78,7 @@ a second. Learn from real usage before replicating.
 
 ---
 
-## Agent spec architecture diagrams (paths 4-5)
+## Implementation guide architecture diagrams (paths 4-5)
 
 Considered including Mermaid architecture diagrams in paths 4-5
 implementation guides showing the deterministic engine + supervisor or
@@ -86,5 +86,5 @@ planner/executor pattern. Decided against for v1: clear prose in the
 process, tool stack, and HITL sections carries the explanation. Would
 add ~300-600 output tokens per run for marginal comprehension gain.
 
-**Signal to build:** users of v1 report the agent spec is hard to
-visualize or they ask for a picture.
+**Signal to build:** users of v1 report the implementation guide is
+hard to visualize or they ask for a picture.

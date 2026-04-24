@@ -2,10 +2,9 @@
 
 ## Purpose
 
-Frame the user's business context, surface 5-10 candidate workflows, and
-select one for deep-dive documentation in stage 02. This is the
-**breadth pass** — short, surface-level questions across many workflows.
-Depth comes in stage 02.
+Frame business context, surface 5-10 candidate workflows, select one
+for deep-dive in stage 02. The **breadth pass** — short, surface-level
+questions across many workflows.
 
 ## Inputs
 
@@ -23,15 +22,12 @@ Depth comes in stage 02.
    workflows together, then pick one to go deep on in stage 02.
 3. Ask the framing questions in `inventory-questions.md` to sketch the
    business context. Capture as a short business summary.
-4. Walk the inventory questions to surface 5-10 candidate workflows.
-   For each candidate, capture: name, rough frequency, who performs it,
-   and why it feels like it could be improved. Keep each candidate
-   shallow — one or two lines each. Don't elicit process detail here.
+4. Walk the inventory questions to surface 5-10 candidates. Keep each
+   candidate shallow — one or two lines. Don't elicit process detail here.
 5. After the inventory is built, CHECKPOINT: mirror the list back to
    the user. Invite them to add, remove, or edit candidates.
 6. Present the inventory and help the user select one workflow using
-   the criteria in `selection-guide.md`. The agent helps the user
-   choose; it does not choose for them.
+   the criteria in `selection-guide.md`.
 7. CHECKPOINT: restate the selected workflow with a one-paragraph scope
    description. Confirm before advancing.
 8. Run the Audit below.

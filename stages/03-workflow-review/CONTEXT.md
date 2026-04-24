@@ -2,10 +2,10 @@
 
 ## Purpose
 
-Dedicated quality pass. The user reviews the finalized diagram and
-record side-by-side to catch missing steps, wrong ordering, and hidden
-decisions. No new interview questions — this is a **scrutiny stage**,
-not an elicitation stage.
+Quality pass. The user reviews the finalized diagram and record
+side-by-side to catch missing steps, wrong ordering, and hidden
+decisions. A **scrutiny stage**, not elicitation — no new interview
+questions.
 
 ## Inputs
 
@@ -28,11 +28,10 @@ not an elicitation stage.
 3. For each correction the user flags, update the record and diagram
    in real time. Confirm the update with the user before moving on.
 4. **Kick-back rule:** if review surfaces a major gap (a whole section
-   missing, a misunderstanding of the trigger, a skipped decision
-   branch), re-enter stage 02 at the relevant section only — walk just
-   that section's questions, re-mirror, update the record, then return
-   to stage 03 and resume review. Do not restart stage 02 from the
-   beginning. The rest of the captured work stays intact.
+   missing, a misunderstood trigger, a skipped decision branch),
+   re-enter stage 02 at just the relevant section — walk that section's
+   questions, re-mirror, update the record, then return to stage 03 and
+   resume. The rest of the captured work stays intact.
 5. CHECKPOINT: after all dimensions have been reviewed, present a
    summary of corrections applied. Ask if anything else was missed
    before finalizing.

@@ -49,7 +49,7 @@ A short table in `priority-ranking.md`:
 
 **Ranking is rough — based only on the shallow data from stage 01
 intake. Fit scores above 1–5 dimensions are confidence-flagged; the
-full 8-dimension score requires running stage 02 on each candidate.**
+full 9-dimension score requires running stage 02 on each candidate.**
 
 | Workflow | Volume | Pain | Standardization | Rough Total | Confidence |
 |----------|--------|------|-----------------|-------------|------------|

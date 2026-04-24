@@ -106,11 +106,11 @@ fixes common problems, and escalates the rest to a human.
 - **Where it breaks:** The supervisor misreads a failure and proposes
   the wrong fix. Mitigated by human-in-the-loop gates during the first
   weeks of operation.
-- **Data handling:** This is where real control starts. The workflow
-  engine can be **self-hosted** (your server, your data never leaves)
-  while the supervisor calls an external LLM. Or go fully self-hosted
-  by running a local model as the supervisor too. Trade-off: more
-  initial setup and ongoing maintenance.
+- **Data handling:** The workflow engine can be **self-hosted** (your
+  server, your data never leaves) while the supervisor calls an
+  external LLM. Or go fully self-hosted by running a local model as
+  the supervisor too. Trade-off: more initial setup and ongoing
+  maintenance.
 - **When to upgrade:** When the workflow is mission-critical, touches
   many systems, or needs to adapt to changes without constant human
   re-configuration.
@@ -131,8 +131,7 @@ tools and data.
   cost than any other path.
 - **Data handling:** Fully configurable. Can be built on enterprise LLM
   contracts with ZDR, private cloud deployments, or fully on-premise
-  with self-hosted models. This path exists in part *because* some
-  businesses need this level of control.
+  with self-hosted models.
 - **When to upgrade:** You're already at path 5 — this is the top of the
   ladder. Next moves are horizontal (more workflows) or organizational
   (build an internal AI team).
@@ -160,23 +159,3 @@ Override: if data is highly sensitive (HIPAA/PCI/NDA), push the
 recommendation one path deeper than the rules above suggest — the extra
 control is worth the extra build cost.
 
----
-
-## Output format for stage 04
-
-In `qualification-report.md`, include:
-
-1. **Recommended path** — one path, one sentence why.
-2. **What this looks like in your week** — concrete picture of the
-   workflow post-automation.
-3. **Who builds it** — yourself / teammate / consultant / engineer.
-4. **Rough cost** — build + monthly run.
-5. **Data handling note** — specific to the user's sensitivity answer.
-6. **What to do next** — two options:
-   - *If you want to build this yourself:* [specific first step].
-   - *If you want help:* [what kind of help, what a good engagement
-     looks like].
-
-The "what to do next" block serves users on both sides — DIY builders
-get a starting point, and users who need help get honest signal about
-what kind of help fits.

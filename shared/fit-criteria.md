@@ -4,9 +4,6 @@ A scoring rubric for evaluating whether a documented workflow is a strong
 candidate for AI agent automation. Score each dimension 1–5 against the
 reviewed workflow record from stage 03. Total = sum, max 45.
 
-Use this rubric in stage 04 to produce `qualification-report.md` and to
-rank candidates in `priority-ranking.md`.
-
 ## Dimensions
 
 ### 1. Structure
@@ -57,7 +54,7 @@ What happens if the agent gets it wrong? Reversibility matters.
 | 1 | High stakes — mistakes cost significant money, compliance exposure, or customer trust. |
 
 (High-stakes workflows aren't disqualified — they just need stronger
-human-in-the-loop gates in the agent spec.)
+human-in-the-loop gates in the implementation guide.)
 
 ### 6. Current pain
 Is this worth solving? Workflows that don't hurt usually don't get fixed.
@@ -77,8 +74,8 @@ How many people or systems does the workflow pass through?
 | 3 | 2–3 handoffs across people or systems. |
 | 1 | Many handoffs; coordination is the workflow. |
 
-Low scores here aren't always disqualifying — handoff-heavy workflows
-can still automate well with orchestration — but they increase build cost.
+Low scores aren't always disqualifying — handoff-heavy workflows still
+automate with orchestration, just at higher build cost.
 
 ### 8. Human-in-the-loop need
 Can the agent run unattended, or does every run need review?
@@ -107,8 +104,8 @@ If you can't measure success, you can't prove the agent is working.
 
 | Total | Interpretation |
 |-------|---------------|
-| 36–45 | Strong candidate. Proceed to agent spec. |
-| 27–35 | Viable. Agent spec should call out the weak dimensions explicitly. |
+| 36–45 | Strong candidate. Proceed to implementation guide. |
+| 27–35 | Viable. Implementation guide should call out the weak dimensions explicitly. |
 | 18–26 | Marginal. Document why the user might still want to build it — or recommend a non-agent solution (macro, Zap, template). |
 | 9–17  | Poor fit for agent automation. Recommend human process improvement instead. |
 
