@@ -1,6 +1,6 @@
 # Interview Question Template
 
-**The 19 topics below are a coverage guarantee.** Every section (A-E) must produce an answer to every topic before the section's mirror-and-advance gate. This is what makes records comparable across workflows and keeps audits reliable.
+**The 20 topics below are a coverage guarantee.** Every section (A-E) must produce an answer to every topic before the section's mirror-and-advance gate. This is what makes records comparable across workflows and keeps audits reliable.
 
 **Pareto applies to depth and order, not coverage.** Skip the literal wording of a question whose answer is already on the table with high confidence. Reorder when the conversation leads naturally elsewhere. Spend more turns on surprising or complex answers, fewer on simple ones. Do not skip topics.
 
@@ -38,6 +38,7 @@ This is the **depth pass**. Stage 01 handles breadth (short surface-level questi
 
 ## E. Pain
 
-17. What part of this is the most frustrating or time-consuming? 
+17. What part of this is the most frustrating or time-consuming?
 18. If a new hire had to do this tomorrow, what would you warn them about?
 19. If you could wave a wand and fix one thing about how this works, what would it be?
+20. When this workflow goes wrong, how do you find out, and what does it cost you — time, money, or trust?
